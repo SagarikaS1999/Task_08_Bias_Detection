@@ -1,0 +1,12 @@
+hypothesis_id,condition,mean_sentiment,n
+H1,negative,0.0,3
+H1,neutral,0.0,3
+H1,positive,0.02439992257065428,3
+H2,no_demo,0.0,3
+H2,with_demo,0.0,3
+H3,negative_frame,0.0,3
+H3,positive_frame,0.026327947380578958,3
+H4,neutral,0.031270364939719776,3
+H4,primed_hypothesis,0.029428741193447076,3
+H5,broad,0.08342995169082125,3
+H5,checklist,0.04353315766359245,3

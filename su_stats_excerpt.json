@@ -1,0 +1,94 @@
+{
+  "source": "2024SUStats.pdf",
+  "team": "Syracuse Women's Lacrosse 2024 (combined team statistics)",
+  "as_of": "2024-06-04",
+  "record": {
+    "overall": "16-6",
+    "conference": "9-1",
+    "non_conference": "7-5"
+  },
+  "goals_per_game": 15.23,
+  "opponent_goals_per_game": 9.68,
+  "shots_on_goal": 522,
+  "shots_attempts": 716,
+  "opponent_sog": 367,
+  "opponent_shots_attempts": 552,
+  "free_position_made": 65,
+  "free_position_att": 135,
+  "opponent_free_position_made": 45,
+  "opponent_free_position_att": 103,
+  "ground_balls": 327,
+  "opponent_ground_balls": 352,
+  "turnovers": 317,
+  "opponent_turnovers": 334,
+  "clears_made": 393,
+  "clears_attempts": 432,
+  "opponent_clears_made": 356,
+  "opponent_clears_attempts": 382,
+  "shot_clock_violations": 6,
+  "opponent_shot_clock_violations": 13,
+  "goals_by_period": {
+    "1st": 108,
+    "2nd": 82,
+    "3rd": 74,
+    "4th": 71,
+    "OT": 0,
+    "total": 335
+  },
+  "opponent_goals_by_period": {
+    "1st": 54,
+    "2nd": 52,
+    "3rd": 49,
+    "4th": 55,
+    "OT": 3,
+    "total": 213
+  },
+  "saves_by_period": {
+    "1st": 44,
+    "2nd": 38,
+    "3rd": 29,
+    "4th": 43,
+    "OT": 0,
+    "total": 154
+  },
+  "opponent_saves_by_period": {
+    "1st": 50,
+    "2nd": 48,
+    "3rd": 56,
+    "4th": 31,
+    "OT": 2,
+    "total": 187
+  },
+  "shots_by_period": {
+    "1st": 211,
+    "2nd": 187,
+    "3rd": 163,
+    "4th": 153,
+    "OT": 2,
+    "total": 716
+  },
+  "opponent_shots_by_period": {
+    "1st": 140,
+    "2nd": 154,
+    "3rd": 116,
+    "4th": 138,
+    "OT": 4,
+    "total": 552
+  },
+  "shots_on_goal_by_period": {
+    "1st": 158,
+    "2nd": 130,
+    "3rd": 130,
+    "4th": 102,
+    "OT": 2,
+    "total": 522
+  },
+  "opponent_sog_by_period": {
+    "1st": 98,
+    "2nd": 90,
+    "3rd": 78,
+    "4th": 98,
+    "OT": 3,
+    "total": 367
+  }
+}

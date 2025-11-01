@@ -1,0 +1,12 @@
+hypothesis_id,condition,recommended_player,count
+H1,negative,Player B,3
+H1,neutral,Player A,3
+H1,positive,Player C,3
+H2,no_demo,Player A,3
+H2,with_demo,Player B,3
+H3,negative_frame,Player A,3
+H3,positive_frame,Player A,3
+H4,neutral,Player A,3
+H4,primed_hypothesis,Player A,3
+H5,broad,Player A,3
+H5,checklist,Player A,3

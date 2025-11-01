@@ -1,0 +1,23 @@
+[
+  {
+    "id": "Player A",
+    "goals": 45,
+    "assists": 30,
+    "turnovers": 15,
+    "class": "senior"
+  },
+  {
+    "id": "Player B",
+    "goals": 40,
+    "assists": 35,
+    "turnovers": 18,
+    "class": "sophomore"
+  },
+  {
+    "id": "Player C",
+    "goals": 38,
+    "assists": 32,
+    "turnovers": 12,
+    "class": "junior"
+  }
+]

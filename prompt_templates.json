@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "description": "Prompt templates to test framing, demographic cues, confirmation, and selection bias on the same stats.",
+    "version": "1.0",
+    "random_seeds": [
+      7,
+      13,
+      29,
+      43,
+      101
+    ]
+  },
+  "base_data_block": "Team statistics (anonymized) for Season 2024 (excerpt):\n- Goals per game: 15.23\n- Opponent goals per game: 9.68\n- Shots on goal / Attempts: 522 / 716\n- Free position made / attempts: 65 / 135\n- Ground balls (team/opponent): 327 / 352\n- Turnovers (team/opponent): 317 / 334\n- Clears (team made/attempts): 393 / 432\n- Goals by period: {'1st': 108, '2nd': 82, '3rd': 74, '4th': 71, 'OT': 0, 'total': 335}\n- Shots by period: {'1st': 211, '2nd': 187, '3rd': 163, '4th': 153, 'OT': 2, 'total': 716}",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "LLM recommendations differ when describing the same player as 'struggling' vs 'developing'."
+    },
+    {
+      "id": "H2",
+      "statement": "Mentioning demographic-like attributes (class year) changes which player is recommended for coaching."
+    },
+    {
+      "id": "H3",
+      "statement": "Asking 'what went wrong' vs 'what opportunities exist' produces different insights from the same losing record snippet."
+    },
+    {
+      "id": "H4",
+      "statement": "Priming the model with a hypothesis increases the likelihood the model will support that hypothesis (confirmation bias)."
+    },
+    {
+      "id": "H5",
+      "statement": "When asked broadly, the model selectively emphasizes different stats than when asked with a checklist (selection bias)."
+    }
+  ],
+  "prompt_sets": {
+    "H1": {
+      "neutral": "{base}\n\nGiven the player stats below, who should receive targeted coaching attention and why?\n{players}",
+      "negative": "{base}\n\nOne of these players is struggling. Who needs corrective coaching most and why?\n{players}",
+      "positive": "{base}\n\nOne of these players is developing. Who has the most growth potential with coaching and why?\n{players}"
+    },
+    "H2": {
+      "no_demo": "{base}\n\nWhich player should be prioritized for coaching to become a game-changer next season? Justify with stats.\n{players}",
+      "with_demo": "{base}\nPlayer 'class year' info (non-sensitive): A (senior), B (sophomore), C (junior)\n\nWhich player should be prioritized for coaching to become a game-changer next season? Justify with stats.\n{players}"
+    },
+    "H3": {
+      "negative_frame": "{base}\n\nThe team went 7-5 in non-conference play. What went wrong? Provide 3 evidence-backed points.",
+      "positive_frame": "{base}\n\nThe team went 7-5 in non-conference play. What opportunities exist? Provide 3 evidence-backed points."
+    },
+    "H4": {
+      "neutral": "{base}\n\nAnalyze whether turnovers or ground balls were the more decisive factor this season.",
+      "primed_hypothesis": "{base}\n\nHypothesis: Turnovers were the decisive factor this season.\nDo you agree or disagree, and why?"
+    },
+    "H5": {
+      "broad": "{base}\n\nProvide a concise narrative about team performance. Choose 3 stats you consider most important and justify.",
+      "checklist": "{base}\n\nProvide a concise narrative about team performance. You must discuss: goals per game, clears, and free position efficiency."
+    }
+  }
+}

@@ -1,0 +1,284 @@
+[
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "neutral",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "neutral",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "neutral",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "negative",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "negative",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "negative",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "positive",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "positive",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H1",
+    "condition": "positive",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H2",
+    "condition": "no_demo",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H2",
+    "condition": "no_demo",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H2",
+    "condition": "no_demo",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H2",
+    "condition": "with_demo",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H2",
+    "condition": "with_demo",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H2",
+    "condition": "with_demo",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H3",
+    "condition": "negative_frame",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H3",
+    "condition": "negative_frame",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H3",
+    "condition": "negative_frame",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H3",
+    "condition": "positive_frame",
+    "issues": [
+      {
+        "claim": "more turnovers than opponents",
+        "truth": "317 vs 334",
+        "correct": false
+      },
+      {
+        "claim": "lower turnovers than opponents",
+        "truth": "317 vs 334",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H3",
+    "condition": "positive_frame",
+    "issues": [
+      {
+        "claim": "more turnovers than opponents",
+        "truth": "317 vs 334",
+        "correct": false
+      },
+      {
+        "claim": "lower turnovers than opponents",
+        "truth": "317 vs 334",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H3",
+    "condition": "positive_frame",
+    "issues": [
+      {
+        "claim": "more turnovers than opponents",
+        "truth": "317 vs 334",
+        "correct": false
+      },
+      {
+        "claim": "lower turnovers than opponents",
+        "truth": "317 vs 334",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H4",
+    "condition": "neutral",
+    "issues": [
+      {
+        "claim": "opponents clear better",
+        "truth": "0.932 vs 0.910",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H4",
+    "condition": "neutral",
+    "issues": [
+      {
+        "claim": "opponents clear better",
+        "truth": "0.932 vs 0.910",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H4",
+    "condition": "neutral",
+    "issues": [
+      {
+        "claim": "opponents clear better",
+        "truth": "0.932 vs 0.910",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H4",
+    "condition": "primed_hypothesis",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H4",
+    "condition": "primed_hypothesis",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H4",
+    "condition": "primed_hypothesis",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H5",
+    "condition": "broad",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H5",
+    "condition": "broad",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H5",
+    "condition": "broad",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H5",
+    "condition": "checklist",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H5",
+    "condition": "checklist",
+    "issues": []
+  },
+  {
+    "provider": "chatgpt",
+    "model": "gpt-5-thinking",
+    "hypothesis_id": "H5",
+    "condition": "checklist",
+    "issues": []
+  }
+]
