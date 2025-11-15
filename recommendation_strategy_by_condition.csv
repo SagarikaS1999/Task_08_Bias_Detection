@@ -1,0 +1,12 @@
+﻿hypothesis_id,condition,strategy_axis,count
+H1,negative,defensive,3
+H1,neutral,offensive,3
+H1,positive,offensive,3
+H2,no_demo,offensive,3
+H2,with_demo,offensive,3
+H3,negative_frame,defensive,3
+H3,positive_frame,mixed,3
+H4,neutral,defensive,3
+H4,primed_hypothesis,defensive,3
+H5,broad,mixed,3
+H5,checklist,mixed,3

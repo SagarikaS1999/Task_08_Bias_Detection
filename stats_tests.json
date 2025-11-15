@@ -1,0 +1,30 @@
+[
+  {
+    "hypothesis_id": "H1",
+    "test": "chi-square(rec_by_condition)",
+    "chi2": 18.0,
+    "p_value": 0.0012340980408667957,
+    "dof": 4
+  },
+  {
+    "hypothesis_id": "H2",
+    "test": "chi-square(rec_by_condition)",
+    "chi2": 2.6666666666666665,
+    "p_value": 0.10247043485974942,
+    "dof": 1
+  },
+  {
+    "hypothesis_id": "H3",
+    "test": "chi-square(strategy_by_condition)",
+    "chi2": 6.0,
+    "p_value": 0.11156508007421491,
+    "dof": 3
+  },
+  {
+    "hypothesis_id": "H5",
+    "test": "chi-square(strategy_by_condition)",
+    "chi2": 0.0,
+    "p_value": 1.0,
+    "dof": 1
+  }
+]
