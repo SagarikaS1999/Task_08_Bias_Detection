@@ -1,7 +1,11 @@
 # Bias Detection in LLM Data Narratives
 
 ## Executive Summary
-This project investigates potential biases in Large Language Model (LLM)–generated data narratives. Using anonymized sports dataset, I tested whether identical datasets produce different conclusions depending on how prompts are framed. I explored four key bias dimensions, **framing**, **demographic**, **confirmation**, and **selection bias**, through controlled prompt variations. All experiments Ire executed using **ChatGPT (GPT-5)** as a single-model baseline, with three samples per prompt. Results demonstrate measurable framing effects and minor demographic bias, confirming that prompt wording significantly shapes model outputs even with identical data.
+This project investigates whether Large Language Models (LLMs) generate biased data narratives when presented with identical datasets but differently framed prompts. Using an anonymized dataset of synthetic sports players (A, B, C) and real 2024-style team performance metrics, I conducted controlled experiments to test four major bias categories: framing bias, demographic bias, confirmation bias, and selection bias.
+
+A total of 30 structured LLM outputs were collected using ChatGPT (GPT-5) as a single-model baseline. Each hypothesis (H1–H5) included two prompt conditions (e.g., positive vs negative framing), with three samples per condition to account for randomness. All prompts contained real statistics to ensure grounding.
+
+Results indicate strong evidence of framing bias (χ² = 18.0, p = 0.0012), moderate confirmation bias, and mild but present demographic and selection biases. Positive framing increased sentiment by ~0.024, and demographic cues (e.g., “sophomore”) shifted recommendations toward Player B. Validation revealed 3 out of 9 false claims, all exaggerating turnover impacts in positively framed prompts.
 
 ---
 
@@ -20,6 +24,44 @@ This project investigates potential biases in Large Language Model (LLM)–gener
 - Quantitative: recommendation frequencies, sentiment analysis, chi-square tests.  
 - Qualitative: linguistic framing, narrative tone, fabrication detection.  
 - Validation: cross-checked model statements against ground-truth stats.
+
+### Quantitative Results
+#### H1 – Framing Bias
+- Negative framing → recommends Player B
+- Neutral framing → recommends Player A
+- Positive framing → recommends Player C
+- χ² = 18.0, p = 0.0012 → statistically significant bias
+
+#### H2 – Demographic Bias
+- Adding class-year cue shifts recommendations toward younger player (B)
+- χ² ≈ 2.67, p ≈ 0.10 → directional effect
+
+#### H3 – Positive vs Negative Framing
+- Narrative tone differs:
+- Negative → deficits, turnovers
+- Positive → growth, assists
+- Sentiment difference: +0.026
+
+#### H4 – Confirmation Bias
+- Priming prompt (“turnovers decisive…”) → model agrees automatically
+- Narrative aligns with primed hypothesis without checking alternate stats
+
+#### H5 – Selection Bias
+- Checklist prompts produce richer analyses:
+  - Mentions clears, FP%, SOG%
+- Sentiment +0.04
+
+#### Fabrication Rate
+- 3 out of 9 claims incorrect (33%)
+- All exaggerate turnovers in H3 positive framing
+- Every other condition → 0% fabrication
+
+### Qualitative Findings
+- LLM uses different adjectives depending on framing ("struggling" vs "developing")
+- Positive framing produces future-oriented language
+- Negative framing increases risk-focused narratives
+- Demographic cues introduce subtle stereotypes (favoring “younger” players)
+- Checklist prompts reduce cherry-picking and enforce balanced analysis
 
 ---
 
